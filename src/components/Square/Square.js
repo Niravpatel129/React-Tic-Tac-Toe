@@ -8,6 +8,7 @@ class Square extends Component {
   }
 
   handleOnClick = () => {
+    const squares = this.state.squares.slice();
     this.setState({ value: "X" });
   };
 
